@@ -12,9 +12,9 @@ It demonstrates how a single logical qubit can be protected against **any single
 
 ## Running the Simulation
 x1 and x2 select the logical state:
-00 → |0>
-01 → |1>
-10 → |+> = (|0> + |1>)/√2
+00 → |0>,  
+01 → |1>,  
+10 → |+> = (|0> + |1>)/√2,  
 11 → |-> = (|0> - |1>)/√2
 
 The main function:
