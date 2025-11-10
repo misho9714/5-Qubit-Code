@@ -11,13 +11,15 @@ It demonstrates how a single logical qubit can be protected against **any single
 - **Logical Measurement** – checks whether the logical state was successfully recovered  
 
 ## Running the Simulation
-The main function:
-```python
-run_5q_code(p, x1, x2, shots)
-
 x1 and x2 select the logical state:
 00 → |0>
 01 → |1>
 10 → |+> = (|0> + |1>)/√2
 11 → |-> = (|0> - |1>)/√2
+
+The main function:
+```python
+run_5q_code(p, x1, x2, shots)
+
+
 
