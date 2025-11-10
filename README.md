@@ -17,6 +17,9 @@ x1 and x2 select the logical state:
 10 → $|+_L\rangle$  
 11 → $|-_L\rangle$  
 
+The encoding circuit used in this notebook is based on the construction from the paper:
+"Natural 5-Qubit Encoding for Robust Single-Qubit Gates" (arXiv:2410.06375).
+
 The main function:
 ```python
 run_5q_code(p, x1, x2, shots)
