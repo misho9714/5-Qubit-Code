@@ -11,7 +11,7 @@ It demonstrates how a single logical qubit can be protected against **any single
 - **Logical Measurement** – checks whether the logical state was successfully recovered  
 
 ## Running the Simulation
-x1 and x2 select the logical state:
+x1 and x2 select the logical state:  
 00 → $|0_L\rangle$  
 01 → $|1_L\rangle$  
 10 → $|+_L\rangle$  
