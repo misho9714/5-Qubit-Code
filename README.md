@@ -12,10 +12,10 @@ It demonstrates how a single logical qubit can be protected against **any single
 
 ## Running the Simulation
 x1 and x2 select the logical state:
-00 → |0>,  
-01 → |1>,  
-10 → |+> = (|0> + |1>)/√2,  
-11 → |-> = (|0> - |1>)/√2
+00 → $|0_L\rangle$  
+01 → $|1_L\rangle$  
+10 → $|+_L\rangle$  
+11 → $|-_L\rangle$  
 
 The main function:
 ```python
